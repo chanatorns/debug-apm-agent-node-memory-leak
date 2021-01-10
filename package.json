@@ -1,0 +1,21 @@
+{
+  "name": "debug-apm-agent-node-memory-leak",
+  "version": "1.0.0",
+  "description": "debug memory leak from apm agent node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elastic-apm-node": "^1.14.5",
+    "express": "^4.17.1",
+    "next": "9.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  }
+}

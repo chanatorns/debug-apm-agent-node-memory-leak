@@ -1,0 +1,31 @@
+bst repo
+instrumental name
+============name finalhandler
+============name http
+============name express
+============name https
+============name ioredis
+============name ws
+
+
+
+test repo
+=======name finalhandler
+shimming finalhandler@1.1.2 module
+=======name http
+shimming http@12.9.0 module
+shimming http.Server.prototype.emit function
+shimming http.request function
+shimming http.ServerResponse.prototype.writeHead function
+=======name express
+shimming express@4.17.1 module
+shimming express.Router.process_params function
+shimming express.Router.use function
+shimming express.static function
+copying property mime from express.static
+=======name https
+shimming https@12.9.0 module
+shimming https.Server.prototype.emit function
+shimming https.request function
+x ioredis
+x ws
