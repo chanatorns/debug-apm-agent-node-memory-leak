@@ -3,6 +3,7 @@ const hostname = '127.0.0.1';
 const port = 3001;
 
 const server = http.createServer((req, res) => {
+  console.log('hit me', req.url)
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Mock APM server');
